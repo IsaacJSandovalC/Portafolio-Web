@@ -1123,6 +1123,28 @@ header .logo a {
 	background-size: 290px 50px;
 }
 
+.trigger-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  z-index: 2;
+  background: var(--lightpurple);
+  transition: transform 0.4s;
+}
+ 
+.trigger-menu {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+
+
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 

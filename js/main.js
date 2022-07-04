@@ -289,3 +289,16 @@
 	});		
 
 })(jQuery);
+
+
+let ubicacionPrincipal = pageYOffset;
+
+onscroll = function() {
+    let desplazamiento = pageYOffset;
+    if(ubicacionPrincipal > desplazamiento){
+        document.getElementById('all_header').style.top = '0'
+    }else{
+		document.getElementById('all_header').style.top = '-100px'
+    }
+    ubicacionPrincipal = desplazamiento;
+}

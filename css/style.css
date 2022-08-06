@@ -8505,7 +8505,8 @@ h1, h2, h3, h4, h5,
               z-index: 1;
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
-            width: 100%; }
+            width: 100%; 
+            padding-bottom: 11rem;}
             @media (min-width: 992px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
                 position: absolute;
@@ -8619,7 +8620,7 @@ h1, h2, h3, h4, h5,
       position: absolute;
       left: 0;
       right: 0;
-      bottom: 40px;
+      bottom: 130px;
       width: 100%; }
       @media (max-width: 767.98px) {
         .owl-carousel.home-slider .owl-dots {

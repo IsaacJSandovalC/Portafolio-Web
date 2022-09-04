@@ -8433,7 +8433,7 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 835px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
@@ -8510,7 +8510,7 @@ h1, h2, h3, h4, h5,
             @media (min-width: 992px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
                 position: absolute;
-                top: 50%;
+                top: 56%;
                 left: -19px;
                 -webkit-transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
